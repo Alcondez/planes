@@ -1,2 +1,9 @@
 // @import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+body {
+  background-image: url('../images/planeBackground.jpg');
+  background-size: cover;
+}
 
+#mainnav{
+  padding-left: 20px;
+}

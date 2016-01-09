@@ -12,5 +12,10 @@ var elixir = require('laravel-elixir');
  */
 
 elixir(function(mix) {
-    mix.sass('materialize.scss');
+    mix.sass([
+
+        'materialize.scss',
+        'app.scss'
+
+    ]);
 });
