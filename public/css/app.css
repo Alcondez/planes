@@ -8598,9 +8598,12 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
   .picker--time .picker__box {
     margin-bottom: 5em; } }
 
-body {
+.mainbody {
   background-image: url("../images/planeBackground.jpg");
   background-size: cover; }
+
+.otherbody {
+  background-image: none; }
 
 #mainnav {
   padding-left: 20px; }

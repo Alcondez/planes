@@ -15,6 +15,10 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/chart', function () {
+    return view('chart');
+});
+
 /*
 |--------------------------------------------------------------------------
 | Application Routes

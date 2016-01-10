@@ -1,7 +1,11 @@
 // @import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
-body {
+.mainbody {
   background-image: url('../images/planeBackground.jpg');
   background-size: cover;
+}
+
+.otherbody {
+  background-image: none;
 }
 
 #mainnav{

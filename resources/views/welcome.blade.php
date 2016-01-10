@@ -10,7 +10,7 @@
     <link href="css/app.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 
 </head>
-<body>
+<body class="mainbody">
 
 <nav class="transparent" id="mainnav">
     <div class="nav-wrapper">
@@ -32,7 +32,7 @@
             <h5 class="header col s12 light">Compra boletos de forma comoda y rapida</h5>
         </div>
         <div class="row center">
-            <a href="reservations/create" id="download-button" class="btn-large waves-effect waves-light teal darken-4">Reservar</a>
+            <a href="/chart" id="download-button" class="btn-large waves-effect waves-light teal darken-4">Reservar</a>
         </div>
         <br><br>
 
