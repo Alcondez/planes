@@ -7,12 +7,12 @@
 
             <div class="row">
                 <div class="input-field col s6">
-                    <input type="text" class="validate" id="departure" name="departure">
-                    <label for="departure">Desde</label>
+                    {{ Form::text('departure', '', array('id' => 'departure', 'class' => 'validate', 'data-role' => 'materialtags'))}}
+                   <label for="departure">Desde</label>
                 </div>
 
                 <div class="input-field col s6">
-                    <input type="text" class="validate" id="arrival" name="arrival">
+                    {{ Form::text('arrival', '', array('id' => 'arrival', 'class' => 'validate', 'data-role' => 'materialtags'))}}
                     <label for="arrival">Hasta</label>
                 </div>
             </div>

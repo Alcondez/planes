@@ -1,5 +1,7 @@
 <?php
 
+use \Illuminate\Support\Facades\Input;
+
 /*
 |--------------------------------------------------------------------------
 | Routes File
@@ -22,6 +24,23 @@ Route::get('/chart', function () {
 Route::get('/search', 'PagesController@search');
 
 Route::post('/search', 'PagesController@searchFlights');
+
+Route::any('getdata/{query}', function($query)
+{
+    $data = array();
+    $results = DB::table('airports')
+        ->where('code', 'LIKE',  '%' . $query . '%')
+        ->get();
+
+    foreach ( $results as $result ):
+        $data[] = $result->code;
+    endforeach;
+
+    //var_dump($data);
+    return \Response::json($data);
+
+});
+
 
 /*
 |--------------------------------------------------------------------------
