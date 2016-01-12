@@ -19,6 +19,10 @@ Route::get('/chart', function () {
     return view('chart');
 });
 
+Route::get('/search', 'PagesController@search');
+
+Route::post('/search', 'PagesController@searchFlights');
+
 /*
 |--------------------------------------------------------------------------
 | Application Routes
