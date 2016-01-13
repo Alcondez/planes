@@ -16,7 +16,7 @@
 <body>
 
 <nav>
-    <div class="nav-wrapper">
+    <div class="nav-wrapper teal">
         <a href="#" class="brand-logo black-text">Express Flights</a>
         <ul class="right hide-on-med-and-down">
             <li><a href="#" class="black-text"><i class="material-icons left">search</i>Buscar Vuelos</a></li>

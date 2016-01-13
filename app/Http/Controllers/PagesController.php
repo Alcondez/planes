@@ -16,6 +16,13 @@ class PagesController extends Controller
 
     public function searchFlights(Request $request)
     {
-        dd($request->all());
+        $pass_amt = $request->input('pass_amt');
+
+        return view('pages.flights', compact('pass_amt'));
+    }
+
+    public function registerPassengers()
+    {
+        return $_GET['pass_amt'];
     }
 }
