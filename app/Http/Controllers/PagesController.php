@@ -23,6 +23,8 @@ class PagesController extends Controller
 
     public function registerPassengers()
     {
-        return $_GET['pass_amt'];
+        $pass_amt = $_GET['pass_amt'];
+
+        return view('pages.passengers', compact('pass_amt'));
     }
 }

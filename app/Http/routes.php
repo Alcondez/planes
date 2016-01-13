@@ -25,6 +25,8 @@ Route::get('/search', 'PagesController@search');
 
 Route::post('/search', 'PagesController@searchFlights');
 
+Route::get('search/passengers', 'PagesController@registerPassengers');
+
 Route::any('getdata/{query}', function($query)
 {
     $data = array();
