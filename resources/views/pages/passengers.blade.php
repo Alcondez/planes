@@ -18,6 +18,7 @@
                 <div class="input-field col s3">
                     <input type="text" id="firstname" name="firstname" class="validate">
                     <label for="firstname">Primer Nombre</label>
+
                 </div>
                 <div class="input-field col s3">
                     <input type="text" id="secondname" name="secondname" class="validate">

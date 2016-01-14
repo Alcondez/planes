@@ -6,10 +6,11 @@
     <title>Starter Template - Materialize</title>
 
     <!-- CSS  -->
-    <link rel="stylesheet" href="css/typeahead-format.css" type="text/css">
+    <link rel="stylesheet" href="{{ URL::asset('/css/typeahead-format.css')}}" type="text/css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link href="css/app.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-    <link rel="stylesheet" href="/css/materialize-tags.css" type="text/css">
+    <link href="{{ URL::asset('/css/app.css')}}" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <link rel="stylesheet" href="{{ URL::asset('/css/materialize-tags.css')}}" type="text/css">
+
 
 
 </head>
@@ -40,9 +41,9 @@
 <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
 <script src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
 <script src="http://twitter.github.io/typeahead.js/releases/latest/typeahead.bundle.js"></script>
-<script src="js/materialize-tags.js"></script>
-<script src="js/materialize.min.js"></script>
-<script src="js/initializations.js"></script>
+<script src="{{ URL::asset('js/materialize-tags.js')}}"></script>
+<script src="{{ URL::asset('js/materialize.min.js')}}"></script>
+<script src="{{ URL::asset('js/initializations.js')}}"></script>
 <script type="text/javascript">
     var country_list = new Bloodhound({
         datumTokenizer: Bloodhound.tokenizers.obj.whitespace('code'),
