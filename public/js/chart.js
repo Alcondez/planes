@@ -4,6 +4,10 @@ $(document).ready(function() {
     var $cart = $('#selected-seats'),
         sc = changemap(1550);
 
+    $('.checkout-button').click(function(){
+        window.location.href='/';
+    })
+
 
 
     //this will handle "[cancel]" link clicks

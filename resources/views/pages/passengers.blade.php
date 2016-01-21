@@ -38,6 +38,14 @@
                 </div>
             </div>
 
+                @if($i == $pass_amt -1)
+                <div class="row">
+                    <div class="col s4">
+                        <a class="waves-effect waves-light btn" href="/"><i class="material-icons left">send</i>Continuar</a>
+                    </div>
+                </div>
+                    @endif
+
         </form>
         </div>
     @endfor

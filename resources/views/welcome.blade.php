@@ -16,8 +16,8 @@
     <div class="nav-wrapper">
         <a href="#" class="brand-logo black-text">Express Flights</a>
             <ul class="right hide-on-med-and-down">
-                <li><a href="#" class="black-text"><i class="material-icons left">search</i>Buscar Vuelos</a></li>
-                <li><a href="#" class="black-text"><i class="material-icons right">view_module</i>Iniciar Sesion</a></li>
+                <li><a href="{{ url('/login') }}" class="black-text"><i class="material-icons right">person</i>Iniciar Sesion</a></li>
+                <li><a href="{{ url('/register') }}" class="black-text"><i class="material-icons right">person</i>Registrarse</a></li>
             </ul>
     </div>
 
