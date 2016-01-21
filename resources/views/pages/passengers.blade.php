@@ -5,7 +5,9 @@
     <h1 class="center-align">Informacion de los pasajeros</h1>
     @for($i = 0; $i < $pass_amt; $i++)
         <div class="row">
-        <form action=" " method="post" class="col s12">
+            <h3>Pasajero {{$i+1}}</h3>
+            <hr>
+            <form action=" " method="post" class="col s12">
             <div class="row">
                 <div class="input-field col s3">
                     <select name="prefix" id="prefix">
