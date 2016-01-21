@@ -10,8 +10,8 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="{{ URL::asset('/css/app.css')}}" type="text/css" rel="stylesheet" media="screen,projection"/>
     <link rel="stylesheet" href="{{ URL::asset('/css/materialize-tags.css')}}" type="text/css">
-    <link rel="stylesheet" href="{{ URL::asset('/css/jquery.seat-charts.css')}}" type="text/css">
-    <link rel="stylesheet" href="{{ URL::asset('/css/chart-style.css')}}" type="text/css">
+    <!-- <link rel="stylesheet" href="{{ URL::asset('/css/jquery.seat-charts.css')}}" type="text/css"> -->
+    <!-- <link rel="stylesheet" href="{{ URL::asset('/css/chart-style.css')}}" type="text/css"> -->
 
 
 
