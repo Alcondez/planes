@@ -53,7 +53,7 @@
     var country_list = new Bloodhound({
         datumTokenizer: Bloodhound.tokenizers.obj.whitespace('code'),
         queryTokenizer: Bloodhound.tokenizers.whitespace,
-        limit: 10,
+        limit: 30,
         remote: {
             url: '/getdata/%QUERY',
             wildcard: '%QUERY',

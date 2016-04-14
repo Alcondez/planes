@@ -14,6 +14,12 @@ class CreatePassangersTable extends Migration
     {
         Schema::create('passangers', function (Blueprint $table) {
             $table->increments('id');
+            $table->string('prefix');
+            $table->string('first_name');
+            $table->string('second_name');
+            $table->string('last_name');
+            $table->string('id_document');
+
             $table->timestamps();
         });
     }

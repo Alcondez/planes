@@ -4,9 +4,42 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "4ad2be1b7af0b975a1db600c9b90c360",
-    "content-hash": "0feb6af5bef0e094e776fba476c27e7c",
+    "hash": "d9d9ff9024b77c9e7633304229da465c",
+    "content-hash": "1343b7e1c704710f16749e9158c28011",
     "packages": [
+        {
+            "name": "alakkad/world-countries-cities",
+            "version": "v0.1.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/AAlakkad/Laravel-Countries-Cities.git",
+                "reference": "922d581371e7f80dfc30e3e9080e86a3aa048adf"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/AAlakkad/Laravel-Countries-Cities/zipball/922d581371e7f80dfc30e3e9080e86a3aa048adf",
+                "reference": "922d581371e7f80dfc30e3e9080e86a3aa048adf",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/support": "5.*",
+                "php": ">=5.4.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Alakkad\\WorldCountriesCities": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Ammar Alakkad",
+                    "email": "am.alakkad@gmail.com"
+                }
+            ],
+            "time": "2015-09-18 21:25:07"
+        },
         {
             "name": "classpreloader/classpreloader",
             "version": "3.0.0",

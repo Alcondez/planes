@@ -148,7 +148,7 @@ return [
         Illuminate\Validation\ValidationServiceProvider::class,
         Illuminate\View\ViewServiceProvider::class,
         Collective\Html\HtmlServiceProvider::class,
-
+        Alakkad\WorldCountriesCities\WorldCountriesCitiesServiceProvider::class,
         /*
          * Application Service Providers...
          */

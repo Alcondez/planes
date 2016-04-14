@@ -12,6 +12,12 @@ class DatabaseSeeder extends Seeder
     public function run()
     {
         // $this->call(UserTableSeeder::class);
-        $this->call('AirportsTableSeeder');
+        //$this->call('CountriesTableSedder');
+
+        //Model::unguard();
+
+        $this->call('Alakkad\WorldCountriesCities\CitiesSeeder');
+        $this->call('Alakkad\WorldCountriesCities\CountriesSeeder');
+        $this->call('FlightsSeeder');
     }
 }

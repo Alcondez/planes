@@ -30,12 +30,12 @@ Route::get('search/passengers', 'PagesController@registerPassengers');
 Route::any('getdata/{query}', function($query)
 {
     $data = array();
-    $results = DB::table('airports')
-        ->where('code', 'LIKE',  '%' . $query . '%')
+    $results = DB::table('cities')
+        ->where('name', 'LIKE',$query . '%')
         ->get();
 
     foreach ( $results as $result ):
-        $data[] = $result->code;
+        $data[] = $result->name;
     endforeach;
 
     //var_dump($data);
